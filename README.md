@@ -7997,6 +7997,28 @@ Total Frames: 4541
 [Frame 1999] Valid 3D-2D = 614
 [Frame 1999] Pose = X=329.89, Z=155.56
 
-Saved:
- → /mnt/6tbdisk/vopipeline/trajectory_00.txt
- → /mnt/6tbdisk/vopipeline/poses_00.txt
+====================== METRICS ======================
+Start Position (GT):   [ 5.551115e-17  3.330669e-16 -4.440892e-16]
+End Position (GT):     [280.1964  -10.85174  39.57091]
+
+Start Position (Est):  [0. 0. 0.]
+End Position (Est RAW):      [329.885756 -69.763873 155.561296]
+End Position (Est Aligned):  [304.58133449 -86.34623951 202.53561942]
+
+Total GT Distance:          1482.71 m
+Total Estimated Distance:   1578.04 m
+
+Final Drift (RAW):          139.26 m
+Final Drift (Aligned):      181.25 m
+
+Mean ATE:                   62.264 m
+RMSE ATE:                   78.377 m
+Max ATE:                    188.536 m
+
+Alignment Scale: 0.9479621808885194
+Rotation Matrix:
+ [[ 0.97365326  0.09840499 -0.205708  ]
+ [-0.08725736  0.99421692  0.06260084]
+ [ 0.21067861 -0.04300198  0.97660911]]
+Translation Vector: [ 36.94409469  -2.53963849 -10.20836216]
+
